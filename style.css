@@ -1,0 +1,31 @@
+body{
+    background-color:##FAF0E6;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 100px;
+
+}
+h1{
+    color: black;
+}
+form{
+    background-color: #C0C0C0;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 30px 20px 10px rgb(7, 7, 7);
+}
+button{
+    background-color: aliceblue;
+    border-radius: 10px ;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column ;
+    cursor: pointer;
+    transition: background 1s;
+}
+button:hover {
+    background-color: rgb(164, 133, 133);
+    color: rgb(49, 5, 193);
+}
